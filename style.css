@@ -133,20 +133,23 @@ body {
   }
 
 
-
   .custom-button {
-    background-image: url('images/dorado1.jpg'); /* Reemplaza 'tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-image: url('images/dorado1.jpg');
     background-size: cover;
     background-position: center;
-    color: white; /* Asegura que el texto siga siendo blanco */
+    color: white;
     transition: color 0.3s;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    padding: 10px; /* Añade algún espacio alrededor del botón */
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
   }
 
   .custom-button:hover {
-    background-image: url('images/oro.jpg'); /* Reemplaza 'tu_imagen.jpg' con la ruta correcta de tu imagen */
-    background-size: cover;
-    background-position: center;
-    color: #fd00a9;
+    background-image: url('images/oro.jpg');
+    color: #4c0443;
   }
-  
   
