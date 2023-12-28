@@ -132,7 +132,6 @@ body {
     
   }
 
-
   .custom-button {
     background-image: url('images/dorado1.jpg');
     background-size: cover;
@@ -142,14 +141,22 @@ body {
     position: fixed;
     top: 30px;
     left: 0;
-    padding: 10px; /* Añade algún espacio alrededor del botón */
+    padding: 10px; 
     border: none;
     cursor: pointer;
     border-radius: 20px;
   }
-
+  
   .custom-button:hover {
     background-image: url('images/oro.jpg');
     color: #4c0443;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .custom-button {
+      top: 10px; 
+      padding: 8px; 
+      border-radius: 15px; 
+    }
   }
   
