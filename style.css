@@ -144,7 +144,7 @@ body {
     padding: 10px; 
     border: none;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 50px;
   }
   
   .custom-button:hover {
